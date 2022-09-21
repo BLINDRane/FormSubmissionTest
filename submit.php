@@ -1,7 +1,11 @@
-<?php
+<!DOCTYPE html>
 
+<html>
 
-echo "Hello World";
+    <body>
 
+        Welcome <?php echo $_POST["name"]; ?> <br>
 
-?>
+    </body>
+
+</html>
